@@ -4,7 +4,7 @@
     "postinstall": "browserify index.js -o leaflet-geopackage.js"
   },
   "dependencies": {
-    "@ngageoint/leaflet-geopackage": "4.1.0",
+    "@ngageoint/leaflet-geopackage": "4.1.1",
     "browserify": "^14.1.0"
   }
 }
