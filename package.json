@@ -14,15 +14,16 @@
     "url": "https://www.nga.mil"
   },
   "contributors": [
-    "Daniel Barela <daniel.barela@gmail.com>"
+    "Daniel Barela <daniel.barela@gmail.com>",
+    "Christopher Caldwell <c.caldwell90@gmail.com>"
   ],
-  "homepage": "http://ngageoint.github.io/geopackage-js/leaflet/",
+  "homepage": "http://ngageoint.github.io/leaflet-geopackage/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngageoint/geopackage-js.git"
+    "url": "https://github.com/ngageoint/leaflet-geopackage.git"
   },
   "bugs": {
-    "url": "https://github.com/ngageoint/geopackage-js/issues"
+    "url": "https://github.com/ngageoint/leaflet-geopackage/issues"
   },
   "peerDependencies": {
     "leaflet": "1.x"
