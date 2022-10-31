@@ -1,6 +1,6 @@
 {
   "name": "@ngageoint/leaflet-geopackage",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Load a GeoPackage layer.",
   "main": "leaflet-geopackage.js",
   "keywords": [
@@ -32,7 +32,7 @@
     "leaflet": "1.x"
   },
   "dependencies": {
-    "@ngageoint/geopackage": "4.1.0"
+    "@ngageoint/geopackage": "4.2.3"
   },
   "scripts": {
     "clean": "rm -rf dist",

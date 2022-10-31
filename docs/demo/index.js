@@ -19,18 +19,7 @@ try {
         opacity: 1,
       };
     },
-    onEachFeature: function(feature, layer) {
-      let string = '';
-      for (const key in feature.properties) {
-        string +=
-          '<div class="item"><span class="label">' +
-          key +
-          ': </span><span class="value">' +
-          feature.properties[key] +
-          '</span></div>';
-      }
-      layer.bindPopup(string);
-    }
+    sqlJsWasmLocateFile: (filename) => 'vendor/dist/' + filename
   }).addTo(map);
 } catch (e) {
   console.error(e);
