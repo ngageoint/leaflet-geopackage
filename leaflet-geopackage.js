@@ -294,7 +294,7 @@ L.GeoPackageFeatureLayer = L.GeoJSON.extend({
   },
   initialize: function initialize(data, options) {
     L.GeoJSON.prototype.initialize.call(this, data, L.setOptions(this, options));
-    setSqljsWasmLocateFile(options.sqlJsWasmLocateFile || (filename => 'https://unpkg.com/@ngageoint/geopackage@4.2,3/dist/' + filename));
+    setSqljsWasmLocateFile(options.sqlJsWasmLocateFile || (filename => 'https://unpkg.com/@ngageoint/geopackage@4.2.3/dist/' + filename));
   },
   onAdd: function onAdd(map) {
     setupCSS();
