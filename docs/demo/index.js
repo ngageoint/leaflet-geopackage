@@ -18,8 +18,7 @@ try {
         weight: 2,
         opacity: 1,
       };
-    },
-    sqlJsWasmLocateFile: (filename) => 'vendor/dist/' + filename
+    }
   }).addTo(map);
 } catch (e) {
   console.error(e);
