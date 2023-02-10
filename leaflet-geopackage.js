@@ -135,11 +135,6 @@ function setupCSS () {
         '.leaflet-geopackage-break-word {' +
         '    word-break: break-word !important;' +
         '}' +
-        '.leaflet-popup-content {' +
-        '    background: transparent !important;' +
-        '    margin: -4px -4px 0px -4px !important;' +
-        '    border-radius: 8px !important;' +
-        '}' +
         '.fill {' +
         '    display: flex;' +
         '    justify-content: center;' +
@@ -268,6 +263,7 @@ L.GeoPackageFeatureLayer = L.GeoJSON.extend({
     });
   },
   options: {
+    interactive: true,
     layerName: '',
     geoPackageUrl: '',
     geoPackage: undefined,
